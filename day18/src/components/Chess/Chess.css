@@ -1,0 +1,5 @@
+.board{
+    border: 1rem outset rgb(18, 5, 32);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}

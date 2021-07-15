@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding-right: 0;
+}
+
+body {
+    width: 100%;
+    color: #F5F5F5;
+    background-color: #D43649;
+}
+
+main {
+    display: grid;
+    width: 60%;
+    grid-template-columns: repeat(4, auto);
+    margin: auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.data {
+    padding: 24px;
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 15px;
+}
+
+.cards {
+    height: 120px;
+    background-color: #C68B5E;
+    border-radius: 10px;
+    position: sticky;
+    transform: rotateY(180deg);
+    transition: transform 300ms ease-in-out 0ms, color 2ms ease-in-out 150ms;
+    text-align: center;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

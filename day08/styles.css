@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main-box {
+    position: absolute;
+    justify-content: center;
+    margin: 0;
+    left: 555px;
+    right: 400px;
+    top: 25px;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(20, auto);
+    grid-template-rows: repeat(20, auto);
+}
+
+.center {
+    margin: 0;
+    height: 32px;
+    width: 32px;
+    background-color: #DE4738;
+    border: 0.01px solid #E24E3F;
+}
+
+.white {
+    background-color: #fff;
+}

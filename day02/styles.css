@@ -1,0 +1,30 @@
+.front {
+    color : #000000;
+}
+
+
+s {
+    text-decoration: underline;
+    text-decoration-color : #32a1ce
+}
+.content {
+    max-width: 500px;
+    margin: 1.5em auto .5em;
+}
+.p {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+table, th, td {
+    border: 1px solid #32a1ce;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+#ht {
+    font-size: 20px;
+}
