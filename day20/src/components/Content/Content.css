@@ -1,0 +1,21 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-box{
+    display: flex;
+    flex-direction: column;  
+    width: 50%;
+    height: 86%;
+    box-shadow: 2px 9px 14px -1px #000;
+    justify-content: center;
+    align-items: center; 
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-radius: 4px 5px 5px 4px;
+    margin-top: 50px;
+    border: 1.5px solid rgb(20, 20, 148);
+}
