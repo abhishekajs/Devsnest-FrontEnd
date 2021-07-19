@@ -17,8 +17,8 @@
 .name{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 600;
