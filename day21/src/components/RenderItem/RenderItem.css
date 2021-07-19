@@ -1,0 +1,31 @@
+.card {
+    width: 90%;
+    border: 1px solid rgb(49, 16, 16);
+    background: burlywood;
+    padding: 5px;
+    margin: 6px;
+    border-radius: 5px;
+    box-shadow: 3px 1px 9px -1px #1a061b;
+    height: 90px;
+    padding: 15px;
+    color: rgb(15, 12, 12);
+  }
+
+  .card-temp {
+      background:rgb(15, 12, 12);
+  }
+
+  .btn-del {
+      background: rgb(202, 22, 22);
+      color: whitesmoke;
+      border-radius: 4px;
+      height: 23px;
+      margin-right: 1em;
+  }
+
+  .btn-edit {
+      background: rgb(61, 61, 212);
+      color: whitesmoke;
+      border-radius: 4px;
+      height: 23px;        
+  }

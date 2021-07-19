@@ -1,0 +1,42 @@
+.form-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 2px 3px 9px -1px black;
+    background-color: rgba(43, 27, 10, 0.788);
+    height: 150px;
+    width: 400px;
+    margin-bottom: 30px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 5px;
+    border: 2px solid rgb(77, 77, 77);
+}
+
+.form-elements {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.form-item {
+    padding-right: 10px;
+    /* height: ; */
+}
+
+.form-item input{
+    height: 30px;
+    border-radius: 5px;
+}
+
+.form-calorie input{
+    height: 30px;
+    border-radius: 5px;
+}
+
+.form-frame button {
+    background-color: burlywood;
+    border-radius: 5px;
+    width: 85%;
+}
