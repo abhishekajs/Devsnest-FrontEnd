@@ -1,0 +1,32 @@
+.frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10%;
+}
+
+.Outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.head {
+  display: block;
+  margin-left: 43%;
+  height: 3rem;
+  width: 4rem;
+}
+
+.btn button {
+  display: inline-block;
+  margin-right: 12px;
+  border: 1px solid black;
+  height: 3rem;
+  width: 6rem;
+  border-radius: 3px;
+  color: white;
+  background-color: rgb(29, 25, 25);
+}
